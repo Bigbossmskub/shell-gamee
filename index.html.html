@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Hidden Object</title>
+    <link rel="stylesheet" href="shell-game.css"> <!-- เพิ่มการเชื่อมโยง CSS -->
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-title">Find the Hidden Object</h1>
+        
+        <div class="score">Score: <span id="score">0</span></div>
+        
+        <div class="difficulty">
+            <button id="easy" class="active">Easy</button>
+            <button id="medium">Medium</button>
+            <button id="hard">Hard</button>
+        </div>
+        
+        <div class="message" id="message">Click Start Game to begin!</div>
+        
+        <div class="table">
+            <div class="cups-container">
+                <div class="cup" id="cup0">
+                    <div class="ball"></div>
+                </div>
+                <div class="cup" id="cup1">
+                    <div class="ball"></div>
+                </div>
+                <div class="cup" id="cup2">
+                    <div class="ball"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="startButton">Start Game</button>
+        </div>
+    </div>
+
+    <script src="shell-game.js"></script> <!-- เพิ่มการเชื่อมโยง JavaScript -->
+</body>
+</html>
